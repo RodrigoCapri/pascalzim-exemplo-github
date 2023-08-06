@@ -5,6 +5,7 @@ var
 	email: string   ;
 
  Begin
+ 	textcolor(white) ;
  	write('Digite seu nome = ');
 	readln(nome);
 	write('Informe sua idade = ');
@@ -14,6 +15,7 @@ var
 	
 	if( (idade > 18) or (idade = 18) ) then
 		begin
+		    textcolor(cyan);
 		    writeln('Bem vindo', nome);
 		    writeln('Cadastro realizado com sucesso');
 		    writeln('email-> ',email);
